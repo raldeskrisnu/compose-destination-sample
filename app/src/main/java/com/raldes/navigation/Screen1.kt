@@ -10,6 +10,20 @@ import com.raldes.navigation.destinations.Screen2Destination
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 
+//@Destination(start = true)
+//@Composable
+//fun Screen1(navigator: DestinationsNavigator) {
+//    Column(verticalArrangement = Arrangement.Center,
+//        horizontalAlignment = Alignment.CenterHorizontally) {
+//        Button(onClick = {
+//
+//            navigator.navigate(Screen2Destination)
+//        }) {
+//            Text(text = "Screen 1")
+//        }
+//    }
+//}
+
 @Destination(start = true)
 @Composable
 fun Screen1(navigator: DestinationsNavigator) {
